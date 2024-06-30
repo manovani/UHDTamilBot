@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '29610881'))
 API_HASH = environ.get('API_HASH', '81d92754c9e7e7be225bf656e04e6f45')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7149381611:AAEdwX2GsEgqPBIpVaNpUBwxzBZRfl34bic")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7188831721:AAFyIcGId93ZOM8PIQ_Jb-BPoJ9TzrbdhfA")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -65,7 +65,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ypCAPkeEADk2NGQ1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+gA2Uik05QvZkMDg9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/UHD_Tamil')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UHD_Links') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
