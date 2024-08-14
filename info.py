@@ -50,7 +50,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gopinath2483:LHX8pIarTDAJt6B4@clustervjnew.anpv1ja.mongodb.net/?retryWrites=true&w=majority&appName=Clustervjnew")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mrprince24gopriya:Nobita143@cluster1433.8smy4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1433")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mrprince24gopriya")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -65,12 +65,12 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+gA2Uik05QvZkMDg9')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ozq3IVrGj4tiYzU9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/UHD_Tamil')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UHD_Links') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'MAINTAINED BY : @UHD_Tamil')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001706458871')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002168059715')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/UHD_Tamil_Support') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
