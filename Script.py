@@ -283,6 +283,10 @@ BOT WORKING PROPERLY"""
 
      
 
+    
+
+    
+    
     #PLANS
 
     PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""
