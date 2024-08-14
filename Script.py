@@ -281,14 +281,6 @@ Bʏ @UHD_Tamil</b>"""
 
 BOT WORKING PROPERLY"""
 
-     
-
-    
-
-    
-    
-    #PLANS
-
     PAGE_TXT = """ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ꜱᴏ ᴄᴜʀɪᴏᴜꜱ ⁉️"""
 
     PURCHASE_TXT = """ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ."""
